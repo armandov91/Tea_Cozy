@@ -1,0 +1,46 @@
+/* Reset browser styling and add general font style */
+html,body,a {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 2;
+}
+header img {
+  max-width: 100%;
+  max-height: 50px;
+  padding-left: 10px;
+}
+header ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+header li {
+  margin: 0px 10px;
+}
+
+main {
+  position: relative;
+  top: 70px;
+  width: 1200px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+#mission {
+
+}
